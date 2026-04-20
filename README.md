@@ -14,7 +14,7 @@ This project focuses on predicting the anti-aging properties of peptides using v
 │   ├── baseline_mlp_model.py
 │   ├── random_forest_model.py
 │   ├── svm_model.py
-│   ├── age_attn_mlp_optimized.py
+│   ├── AgeAttnMLP_model.py
 │   ├── transformer_model.py
 │   └── xgboost_model.py
 ├── src/
@@ -37,7 +37,7 @@ This project explores several models for the prediction task:
 - **baseline_mlp_model.py**: A simple Multi-Layer Perceptron (MLP) model that serves as a baseline.
 - **random_forest_model.py**: A Random Forest classifier.
 - **svm_model.py**: A Support Vector Machine (SVM) classifier with an RBF kernel.
-- **age_attn_mlp_optimized.py**: An optimized MLP model incorporating attention mechanisms (ECA, CoordAttention), DropPath regularization, and residual connections.
+- **AgeAttnMLP_model.py**: An optimized MLP model incorporating attention mechanisms (ECA, CoordAttention), DropPath regularization, and residual connections.
 - **transformer_model.py**: A transformer-based model for feature classification.
 - **xgboost_model.py**: An XGBoost classifier.
 
