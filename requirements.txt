@@ -1,0 +1,11 @@
+torch>=2.0
+transformers>=4.35
+pandas
+numpy
+scikit-learn
+optuna
+xgboost>=2.0
+cleanlab
+matplotlib
+seaborn
+tqdm
